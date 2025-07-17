@@ -1,0 +1,50 @@
+.product-card {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.upload-label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.file-input {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.required {
+  color: red;
+}
+.image-preview {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  img {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .error-msg {
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .field-error {
+    color: darkred;
+    font-size: 0.9em;
+  }
+}

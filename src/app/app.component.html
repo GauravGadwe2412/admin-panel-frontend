@@ -1,0 +1,20 @@
+<!-- src/app/app.component.html -->
+
+<header class="app-header">
+  <div class="container">
+    <div class="title">🛍️ Product Admin Panel</div>
+    <nav>
+      <a routerLink="/products" routerLinkActive="active-link">Products</a>
+      <a
+        routerLink="/products/new"
+        routerLinkActive="active-link"
+        class="add-button"
+        >+ Add Product</a
+      >
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>

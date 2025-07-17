@@ -1,0 +1,43 @@
+.full-width {
+  width: 100%;
+}
+
+.full-width-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+mat-card {
+  padding: 20px;
+  margin: 20px;
+}
+
+mat-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+mat-form-field.full-width {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 8px;
+}
+
+img {
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+button[mat-icon-button] {
+  margin-right: 5px;
+}
