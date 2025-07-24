@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://admin-panel-backend.onrender.com/api'
+  apiUrl: (window as any)["env"]["API_BASE_URL"]
 };
